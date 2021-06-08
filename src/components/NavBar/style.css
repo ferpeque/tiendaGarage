@@ -1,5 +1,11 @@
 .navbar {
     background-color: rgb(236, 153, 51);
+    display: flex;    
+    }
+
+.barra{
     display: flex;
-    
-}
+    justify-content: flex-end;
+    background-color:rgb(255, 217, 161);
+    }
+
