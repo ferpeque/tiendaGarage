@@ -11,7 +11,7 @@ return (
     <div className="collapse navbar-collapse barra" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Home</a>
+          <a className="nav-link" aria-current="page">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" >Productos</a>
