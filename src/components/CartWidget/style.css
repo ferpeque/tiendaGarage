@@ -10,7 +10,7 @@
 .boton-carrito:hover {
     cursor: pointer;
     color: white;
-    background-color: #7C4DFF;
+    background-color: rgb(236, 153, 51); 
 }
 .boton-carrito:focus {
     outline: none;
