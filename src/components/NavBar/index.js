@@ -1,3 +1,4 @@
+import { IconCarrito } from '../CartWidget';
 import './style.css';
 
 export const NavBar = () => {
@@ -20,7 +21,7 @@ return (
           <a className="nav-link" >Nosotros</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" >Carrito</a>
+            <IconCarrito/>
         </li>
       </ul>
     </div>

@@ -6,13 +6,21 @@
     display: flex;
     justify-content: flex-end;
     background-color:rgb(255, 217, 161);
-    margin-right:10px;
+    margin-right:0.5rem;
     }
 
 .logo{
     height: 12vh;
     border-radius: 40%;
     background-color: rgb(255, 217, 161);;
-    margin-right:20px;
+    margin-right:1.2rem;
     
+}
+
+.nav-item {
+    cursor:pointer;
+}
+
+.nav-item:hover {
+    font-weight: bold;
 }
