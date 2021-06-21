@@ -4,7 +4,7 @@ import {ItemListContainer} from '../ItemListContainer';
 function ItemLists ({productos}) {
     <div>
         {productos.map(productos=>{ 
-            return <ItemListContainer productos={productos} buy={productos.id}/>
+            return <ItemListContainer productos={productos} key={productos.id}/>
         })}
 
     </div>
