@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IconCarrito } from "./components/CartWidget";
-import { HomeContainer } from "./Container/HomeContainer";
+import {  ItemListContainer } from "./components/ItemListContainer";
+import {  NavBar } from "./components/NavBar";
 
 
 
@@ -10,8 +11,11 @@ function App() {
 
  
   return (     
-        <HomeContainer/>    
-  );
+    <spam> 
+        <NavBar/>
+        <ItemListContainer/>    
+        </spam>
+        )
 }
 
 export default App;
